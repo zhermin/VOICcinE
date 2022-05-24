@@ -1,0 +1,8 @@
+reg [7:0] my_input [0:49];
+
+[7] [6] [5] [4] [3] [2] [1] [0]
+
+my_input[2] = the entire row of 0-49 items
+send to temporary register then refer to temp[2] to get the specific item
+
+able to save arrays of mic_in to access in the future

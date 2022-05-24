@@ -1,0 +1,291 @@
+functionality, quality (the graphic, how nice it is), complexity (physic's engin), uniqueness (compared to other students)
+
+entertainment (games)
+sound (graphic, eg flower waveform)
+
+Entertainment
+- blocking game
+
+fighting game
+- in order to kill the monster, need to hit a specific amplitude (not always max out)
+- got timing (3s?) for input to be received first before damage is confirmed (maybe at 12)
+- monster is called covid-19. fight the moster to save the world!!!
+- blocking/parrying when monster fights back > produce certain number (eg. 10), must input sound at ard range +/- 1 so (8 - 10) to not take damage
+- combo 
+- maps / selections (buttons)
+- treasures / highscores / bosses
+
+loookup table waveform generator, hardcode, 
+
+
+
+if ((x >= xi && x < xf) && (y >= yi && y < yf))
+
+(A):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+6)   && (y >= yi+6 && y < yi+8))
+
+(B):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+4)   && (y >= yi && y < yi+2))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+2 && y < yi+4))
+if ((x >= xi && x < xi+4)   && (y >= yi+4 && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+6 && y < yi+8))
+if ((x >= xi && x < xi+4)   && (y >= yi+8 && y < yi+10))
+
+(C):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+
+(D):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+2 && y < yi+8))
+if ((x >= xi && x < xi+4)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+4)   && (y >= yi+8 && y < yi+10))
+
+(E):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+4)   && (y >= yi+4 && y < yi+6))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+
+(F):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+4)   && (y >= yi+4 && y < yi+6))
+
+(G):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+5 && x < xi+6) && (y >= yi+4 && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi+3 && x < xi+5) && (y >= yi+4 && y < yi+6))
+if ((x >= xi+2 && x < xi+5) && (y >= yi+8 && y < yi+10))
+
+(H):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi+4 && y < yi+6))
+
+(I):
+if ((x >= xi+2 && x < xi+4) && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+
+(L):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+
+(M):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+3 && x < xi+4) && (y >= yi && y < yi+6))
+if ((x >= xi+5 && x < xi+6) && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+
+(N):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+
+(O):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+
+(P):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+6))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+6)   && (y >= yi+4 && y < yi+6))
+
+(R):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+8 && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+4)   && (y >= yi+6 && y < yi+8))
+
+(S):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+4 && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+if ((x >= xi && x < xi+6)   && (y >= yi+4 && y < yi+6))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+
+(T):
+if ((x >= xi+2 && x < xi+4) && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi && y < yi+2))
+
+(U):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+10))
+if ((x >= xi && x < xi+6)   && (y >= yi+8 && y < yi+10))
+
+(V):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+8))
+if ((x >= xi+2 && x < xi+4) && (y >= yi+8 && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+8))
+
+(W):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+10))
+if ((x >= xi+2 && x < xi+3) && (y >= yi+8 && y < yi+10))
+if ((x >= xi+3 && x < xi+4) && (y >= yi+6 && y < yi+8))
+if ((x >= xi+4 && x < xi+5) && (y >= yi+8 && y < yi+10))
+if ((x >= xi+5 && x < xi+6) && (y >= yi && y < yi+10))
+
+(Y):
+if ((x >= xi && x < xi+2)   && (y >= yi && y < yi+6))
+if ((x >= xi+2 && x < xi+4) && (y >= yi+4 && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi && y < yi+6))
+
+
+
+IT WAS THE YEAR 2023...
+THE COVID-19 PANDEMIC HAS WIPED OUT... 
+...50% OF THE WORLD'S POPULATION!
+
+WHEN ALL HOPE WAS LOST, 
+A VACCINE WAS FINALLY CREATED!
+
+DOCTOR, YOU MUST REACH THE LAB
+TO GET THE VACCINE AND SAVE US ALL!
+
+
+[IT WAS 
+THE YEAR 
+2023...] 
+(xi,yi)
+(I): 26,7  (T): 34,7  (W): 46,7  (A): 54,7  (S): 62,7
+(T): 18,27 (H): 26,27 (E): 34,27 (Y): 46,27 (E): 54,27 (A): 62,27 (R): 70,27
+(2): (0): (2): (3):
+
+[THE COVID-19 
+PANDEMIC HAS 
+WIPED OUT...]
+[T]: 3,7   [H]: 11,7  [E]: 19,7  [C]: 31,7  [O]: 39,7  [V]: 47,7  [I]: 55,7  [D]: 63,7  [-]: [1]: [9]: 
+[P]: 3,27  [A]: 11,27 [N]: 19,27 [D]: 27,27 [E]: 35,27 [M]: 43,27 [I]: 51,27 [C]: 59,27 [H]: 71,27 [A]: 79,27 [S]: 87,27
+[W]: 11,47 [I]: 19,47 [P]: 27,47 [E]: 35,47 [D]: 43,47 [O]: 55,47 [U]: 63,47 [T]: 71,47 [.]: [.]: [.]: 
+
+[...50% OF THE 
+WORLD'S 
+POPULATION!]
+[.]: [.]: [.]: [5]: [0]: [%]:  [O]: 46,7 [F]: 54,7 [T]: 66,7 [H]: 74,7 [E]: 82,7
+[W]: 21,27 [O]: 29,27 [R]: 37,27 [L]: 45,27 [D]: 53,27 [']: [S]: 69,27  
+[P]: 5,47  [O]: 13,47 [P]: 21,47 [U]: 29,47 [L]: 37,47 [A]: 45,47 [T]: 53,47 [I]: 61,47 [O]: 69,47 [N]: 77,47 [!]:
+
+[WHEN ALL 
+HOPE 
+WAS LOST,]
+[W]: 18,7 [H]: 26,7 [E]: 34,7 [N]: 42,7 [A]: 54,7 [L]: 62,7 [L]: 70,7 
+[H]: 33,27 [O]: 41,27 [P]: 49,27 [E]: 57,27 
+[W]: 18,47 [A]: 26,47 [S]: 34,47 [L]: 46,47 [O]: 54,47 [S]: 62,47 [T]: 70,47 [,]: 
+
+[A VACCINE 
+WAS FINALLY 
+CREATED!]
+[A]: 15,7 [V]: 27,7 [A]: 35,7 [C]: 43,7 [C]: 51,7 [I]: 59,7 [N]: 67,7 [E]: 75,7 
+[W]: 7,27 [A]: 15,27 [S]: 23,27 [F]: 35,27 [I]: 43,27 [N]: 51,27 [A]: 59,27 [L]: 67,27 [L]: [Y]: 83,27 
+[C]: 18,47 [R]: 26,47 [E]: 34,47 [A]: 42,47 [T]: 50,47 [E]: 58,47 [D]: 66,47 [!]:
+
+[DOCTOR, YOU 
+MUST REACH 
+THE LAB]
+[D]: 7,7 [O]: 15,7 [C]: 23,7 [T]: 31,7 [O]: 39,7 [R]: 47,7 [,]: [Y]: 66,7 [O]: 74,7 [U]: 82,7 
+[M]: 11,27 [U]: 19,27 [S]: 27,27 [T]: 34,27 [R]: 47,27 [E]: 55,27 [A]: 63,27 [C]: 71,27 [H]: 
+[T]: 23,47 [H]: 31,47 [E]: 39,47 [L]: 51,47 [A]: 59,47 [B]: 67,47 
+
+[TO GET THE 
+VACCINE AND 
+SAVE US ALL!]
+[T]: 13,7 [O]: 21,7 [G]: 33,7 [E]: 41,7 [T]: 49,7 [T]: 61,7 [H]: 69,7 [E]: 77,7 
+[V]: 7,27 [A]: 15,27 [C]: 23,27 [C]: 31,27 [I]: 39,27 [N]: 47,27 [E]: 55,27 [A]: 66,27 [N]: 74,27 [D]: 82,27 
+[S]: 7,47 [A]: 15,47 [V]: 23,47 [E]: 31,47 [U]: 42,47 [S]: 50,47 [A]: 61,47 [L]: 69,47 [L]: 77,47 [!]: 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

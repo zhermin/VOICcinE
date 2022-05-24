@@ -1,0 +1,101 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Apr  5 01:12:55 2020
+| Host         : ZM running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    33 |
+| Unused register locations in slices containing registers |    60 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      8 |            4 |
+|     10 |            1 |
+|     12 |            2 |
+|    16+ |           25 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             300 |           87 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             540 |           68 |
+| Yes          | No                    | No                     |             134 |           26 |
+| Yes          | No                    | Yes                    |              12 |            6 |
+| Yes          | Yes                   | No                     |             170 |           30 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------------+----------------------------------------------------------------+----------------------------------------+------------------+----------------+
+|                   Clock Signal                   |                          Enable Signal                         |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++--------------------------------------------------+----------------------------------------------------------------+----------------------------------------+------------------+----------------+
+| ~clk_6p25mhz_BUFG                                |                                                                |                                        |                1 |              2 |
+|  fncall_string/clk_string                        |                                                                | fncall_chkaudio/seg[5]_i_1_n_0         |                1 |              8 |
+|  basys_clk_IBUF_BUFG                             | fncall_chkaudio/rng_en                                         |                                        |                2 |              8 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | fncall_mainmenu/monster_hp_reg[0]                              | fncall_mainmenu/monster_hp_reg[4]_0    |                2 |              8 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | fncall_chkaudio/first_digit[5]_i_2_n_0                         | fncall_chkaudio/first_digit[5]_i_1_n_0 |                1 |              8 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | fncall_chkaudio/audio_decimal0                                 |                                        |                2 |             10 |
+|  clk_oled_BUFG                                   | fncall_chkaudio/E[0]                                           | sp_down/master_dff/press_btn[0]        |                6 |             12 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | sp_down/slave_dff/player_hp_reg[0][0]                          |                                        |                5 |             12 |
+|  fncall_btn/slowed_clk                           |                                                                |                                        |                5 |             16 |
+|  basys_clk_IBUF_BUFG                             |                                                                |                                        |                8 |             16 |
+|  fncall_string/clk_string                        |                                                                |                                        |                2 |             18 |
+|  clk_oled_BUFG                                   | fncall_mainmenu/scrn_vaccine_graphics/border_color[15]_i_1_n_0 |                                        |                4 |             20 |
+|  fncall_rng/CLK                                  |                                                                |                                        |                8 |             20 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | fncall_chkaudio/sel                                            |                                        |                4 |             22 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | fncall_AC/E[0]                                                 | fncall_chkaudio/max[11]_i_1_n_0        |                4 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | fncall_chkaudio/max[11]_i_1_n_0                                |                                        |                4 |             24 |
+| ~fncall_AC/J_MIC3_Pin4_OBUF                      |                                                                |                                        |                5 |             24 |
+|  basys_clk_IBUF_BUFG                             |                                                                | J_MIC3_Pin1_OBUF_BUFG                  |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | sp_down/slave_dff/p_0_in                                       | sp_down/slave_dff/combat_led_reg[15]   |                9 |             26 |
+|  fncall_mainmenu/mainmenu_pixels_reg[15]_i_2_n_0 |                                                                |                                        |               12 |             32 |
+| ~clk_6p25mhz_BUFG                                |                                                                | sp_center/slave_dff/oled_reset         |                4 |             34 |
+|  J_MIC3_Pin1_OBUF_BUFG                           | sp_down/slave_dff/p_0_in                                       |                                        |                5 |             38 |
+| ~clk_6p25mhz_BUFG                                | fncall_OLED/delay[0]_i_1_n_0                                   | sp_center/slave_dff/oled_reset         |                5 |             40 |
+|  basys_clk_IBUF_BUFG                             |                                                                | fncall_string/count[0]_i_1__3_n_0      |                8 |             64 |
+|  basys_clk_IBUF_BUFG                             |                                                                | fncall_btn/count[0]_i_1__0_n_0         |                8 |             64 |
+|  basys_clk_IBUF_BUFG                             |                                                                | fncall_6p25mhz/count[0]_i_1__2_n_0     |                8 |             64 |
+|  basys_clk_IBUF_BUFG                             |                                                                | fncall_oled/count[0]_i_1__4_n_0        |                8 |             64 |
+|  basys_clk_IBUF_BUFG                             |                                                                | fncall_20khz/clear                     |                8 |             64 |
+| ~clk_6p25mhz_BUFG                                | fncall_OLED/state                                              | sp_center/slave_dff/oled_reset         |                9 |             64 |
+|  basys_clk_IBUF_BUFG                             |                                                                | fncall_rng/count[0]_i_1__5_n_0         |                8 |             64 |
+|  clk_oled_BUFG                                   |                                                                |                                        |               15 |             72 |
+| ~clk_6p25mhz_BUFG                                |                                                                | fncall_OLED/spi_word[39]_i_1_n_0       |               12 |             90 |
+|  J_MIC3_Pin1_OBUF_BUFG                           |                                                                |                                        |               31 |            100 |
++--------------------------------------------------+----------------------------------------------------------------+----------------------------------------+------------------+----------------+
+
+

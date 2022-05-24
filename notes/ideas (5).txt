@@ -1,0 +1,1178 @@
+functionality, quality (the graphic, how nice it is), complexity (physic's engin), uniqueness (compared to other students)
+
+entertainment (games)
+sound (graphic, eg flower waveform)
+
+Entertainment
+- blocking game
+
+fighting game
+- in order to kill the monster, need to hit a specific amplitude (not always max out)
+- got timing (3s?) for input to be received first before damage is confirmed (maybe at 12)
+- monster is called covid-19. fight the moster to save the world!!!
+- blocking/parrying when monster fights back > produce certain number (eg. 10), must input sound at ard range +/- 1 so (8 - 10) to not take damage
+- combo 
+- maps / selections (buttons)
+- treasures / highscores / bosses
+
+loookup table waveform generator, hardcode, 
+
+
+(Main Screen)
+
+(Intro)
+1) IT WAS THE YEAR 2023...
+2) THE COVID-19 PANDEMIC HAS WIPED OUT... 
+3) ...50% OF THE WORLD'S POPULATION!
+4) WHEN ALL HOPE WAS LOST, 
+5) A VACCINE WAS FINALLY CREATED!
+6) DOCTOR, YOU MUST REACH THE LAB
+7) TO GET THE VACCINE AND SAVE US ALL!
+
+(Monster1 SARS pre-text) 
+ALONG THE ROAD
+YOU MET AN OLD 
+ENEMY SARS!
+//As you walk along the street, 
+//you met an old enemy SARS! 
+//Fight it, Doctor!
+
+*Screen flashes*
+(Combat screen)
+
+(Lose)
+You ran out of disinfectants!
+The virus has attacked you..
+-GAME OVER-
+
+(Win)
+Good job, Doctor,
+You killed the virus! 
+Now let's get moving! 
+
+(Choice1 screen)
+
+Choice 1 Left option:
+(Monster2 FLU pre-text) 
+A man sneezed at you!
+You might catch the flu!
+//Fight it, Doctor!
+
+*screen flashes*
+(Combat screen)
+
+(Lose)
+You ran out of disinfectants 
+and caught the common flu..
+-GAME OVER-
+
+(Win)
+Good job Doctor, 
+you disinfected yourself! 
+Now let's get moving! 
+
+Choice 1 Right option:
+(Chest1 pretext)
+You found a chest along the way! 
+It could be a treasure or a trap, 
+Open it if you are curious..
+
+(Chest1 screen)
+(Trap screen)
+
+(Trap text)
+You pricked yourself while opening the chest.. be more careful next time!
+
+(Choice2 screen)
+
+Choice2:
+Right or left option:
+(Chest2 pretext)
+You found another chest along the way! Open it!
+
+(Chest2 screen)
+(Treasure screen)
+
+(Treasure text)
+Yay! You found a pile of mask! Now let's get going!
+
+// (No treasure text)
+// You pricked yourself while opening the chest.. be more careful next time!
+
+Choice3:
+(Monster3 Dengue pretext)
+In front of you,
+you see a pail of larva-filled water!
+// which can breed Dengue mosquito! 
+// Doctor, prevent it!
+
+
+
+*screen flashes*
+(Combat screen)
+
+(Lose)
+You got bitten by the mosquito 
+and got dengue fever..
+-Game Over-
+
+(Win)
+You poured away the water 
+and prevented dengue! 
+Let's get going!
+
+(Choice4 screen)
+Left and Right option:
+(Chest pretext)
+You found a chest along the way! Open it!
+
+(Chest screen)
+
+Result1:
+(Treasure screen)
+(Treasure text)
+Yay! You found a pile of mask! Now let's get going!
+
+Result2:
+(Trap screen)
+(Trap text)
+You pricked yourself while opening the chest.. be more careful next time!
+
+Final boss
+After an arduous journey, you have reached THE LAB!!! 
+However, you have to kill the infectious covid-19 at the door,
+before you can enter the lab..
+
+
+
+
+
+
+if ((x >= xi && x < xf) && (y >= yi && y < yf))
+
+(A):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+6 && y < yi+8))
+
+(B):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+4) && (y >= yi   && y < yi+2))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+2 && y < yi+4))
+if ((x >= xi   && x < xi+4) && (y >= yi+4 && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+6 && y < yi+8))
+if ((x >= xi   && x < xi+4) && (y >= yi+8 && y < yi+10))
+
+(C):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(D):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+2 && y < yi+8))
+if ((x >= xi   && x < xi+4) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+4) && (y >= yi+8 && y < yi+10))
+
+(E):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+4) && (y >= yi+4 && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(F):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+4) && (y >= yi+4 && y < yi+6))
+
+(G):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+5 && x < xi+6) && (y >= yi+4 && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi+3 && x < xi+5) && (y >= yi+4 && y < yi+6))
+if ((x >= xi+2 && x < xi+5) && (y >= yi+8 && y < yi+10))
+
+(H):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi+4 && y < yi+6))
+
+(I):
+if ((x >= xi+2 && x < xi+4) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(L):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(M):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+3 && x < xi+4) && (y >= yi   && y < yi+6))
+if ((x >= xi+5 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+
+(N):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+
+(O):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(P):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+4 && y < yi+6))
+
+(R):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+8 && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+4) && (y >= yi+6 && y < yi+8))
+
+(S):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+4 && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+4 && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(T):
+if ((x >= xi+2 && x < xi+4) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+
+(U):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+
+(V):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+8))
+if ((x >= xi+2 && x < xi+4) && (y >= yi+8 && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+8))
+
+
+(W):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+2 && x < xi+3) && (y >= yi+8 && y < yi+10))
+if ((x >= xi+3 && x < xi+4) && (y >= yi+6 && y < yi+8))
+if ((x >= xi+4 && x < xi+5) && (y >= yi+8 && y < yi+10))
+if ((x >= xi+5 && x < xi+6) && (y >= yi   && y < yi+10))
+
+
+(Y):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+6))
+if ((x >= xi+2 && x < xi+4) && (y >= yi+4 && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+6))
+
+(0):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(1):
+if ((x >= xi+2 && x < xi+4) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+4) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(2):
+if ((x >= xi   && x < xi+2) && (y >= yi+4 && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+4 && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(3):
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi+2 && x < xi+6) && (y >= yi+4 && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(5):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+4 && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+4 && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(9):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+6))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+10))
+if ((x >= xi   && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi   && x < xi+6) && (y >= yi+4 && y < yi+6))
+if ((x >= xi   && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(!):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+6))
+if ((x >= xi   && x < xi+2) && (y >= yi+8 && y < yi+10))
+
+(,):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+4))
+if ((x >= xi+2 && x < xi+4) && (y >= yi   && y < yi+6))
+
+('):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+2))
+if ((x >= xi+1 && x < xi+3) && (y >= yi-2 && y < yi))
+
+(-):
+if ((x >= xi   && x < xi+5) && (y >= yi   && y < yi+2))
+
+(%):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+2))
+if ((x >= xi+4 && x < xi+6) && (y >= yi   && y < yi+2))
+if ((x >= xi+3 && x < xi+5) && (y >= yi+2 && y < yi+4))
+if ((x >= xi+2 && x < xi+4) && (y >= yi+4 && y < yi+6))
+if ((x >= xi+1 && x < xi+3) && (y >= yi+6 && y < yi+8))
+if ((x >= xi   && x < xi+2) && (y >= yi+8 && y < yi+10))
+if ((x >= xi+4 && x < xi+6) && (y >= yi+8 && y < yi+10))
+
+(...):
+if ((x >= xi   && x < xi+2) && (y >= yi   && y < yi+2))
+if ((x >= xi+3 && x < xi+5) && (y >= yi   && y < yi+2))
+if ((x >= xi+6 && x < xi+8) && (y >= yi   && y < yi+2))
+
+
+Intro:
+
+[IT WAS 
+THE YEAR 
+2023...] 
+(xi,yi)
+(I): 26,7  (T): 34,7  (W): 46,7  (A): 54,7  (S): 62,7
+(T): 18,27 (H): 26,27 (E): 34,27 (Y): 46,27 (E): 54,27 (A): 62,27 (R): 70,27
+(2): 27,47 (0): 35,47 (2): 43,47 (3): 51,47 (.): 63,55 (.): 66,55 (.): 69,55  
+
+[THE COVID-19 
+PANDEMIC HAS 
+WIPED OUT...]
+[T]: 3,7   [H]: 11,7  [E]: 19,7  [C]: 31,7  [O]: 39,7  [V]: 47,7  [I]: 55,7  [D]: 63,7  [-]: 72,11 [1]: 79,7  [9]: 87,7
+[P]: 3,27  [A]: 11,27 [N]: 19,27 [D]: 27,27 [E]: 35,27 [M]: 43,27 [I]: 51,27 [C]: 59,27 [H]: 71,27 [A]: 79,27 [S]: 87,27
+[W]: 11,47 [I]: 19,47 [P]: 27,47 [E]: 35,47 [D]: 43,47 [O]: 55,47 [U]: 63,47 [T]: 71,47 [.]: 80,55 [.]: 83,55 [.]: 86,55
+
+[...50% OF THE 
+WORLD'S 
+POPULATION!]
+[.]: 8,15  [.]: 11,15 [.]: 14,15 [5]: 18,7  [0]: 26,7  [%]: 34,7  [O]: 46,7  [F]: 54,7  [T]: 66,7 [H]: 74,7  [E]: 82,7
+[W]: 21,27 [O]: 29,27 [R]: 37,27 [L]: 45,27 [D]: 53,27 [']: 64,29 [S]: 69,27  
+[P]: 5,47  [O]: 13,47 [P]: 21,47 [U]: 29,47 [L]: 37,47 [A]: 45,47 [T]: 53,47 [I]: 61,47 [O]: 69,47 [N]: 77,47 [!]: 87,47
+
+[WHEN ALL 
+HOPE 
+WAS LOST,]
+[W]: 18,7  [H]: 26,7  [E]: 34,7  [N]: 42,7  [A]: 54,7  [L]: 62,7  [L]: 70,7 
+[H]: 33,27 [O]: 41,27 [P]: 49,27 [E]: 57,27 
+[W]: 18,47 [A]: 26,47 [S]: 34,47 [L]: 46,47 [O]: 54,47 [S]: 62,47 [T]: 70,47 [,]: 78,53
+
+[A VACCINE 
+WAS FINALLY 
+CREATED!]
+[A]: 15,7  [V]: 27,7  [A]: 35,7  [C]: 43,7  [C]: 51,7  [I]: 59,7  [N]: 67,7  [E]: 75,7 
+[W]: 7,27  [A]: 15,27 [S]: 23,27 [F]: 35,27 [I]: 43,27 [N]: 51,27 [A]: 59,27 [L]: 67,27 [L]: 75,27 [Y]: 83,27 
+[C]: 18,47 [R]: 26,47 [E]: 34,47 [A]: 42,47 [T]: 50,47 [E]: 58,47 [D]: 66,47 [!]: 76,47
+
+[DOCTOR, YOU 
+MUST REACH 
+THE LAB]
+[D]: 7,7   [O]: 15,7  [C]: 23,7  [T]: 31,7  [O]: 39,7  [R]: 47,7  [,]: 55,12 [Y]: 66,7 [O]: 74,7 [U]: 82,7 
+[M]: 11,27 [U]: 19,27 [S]: 27,27 [T]: 34,27 [R]: 47,27 [E]: 55,27 [A]: 63,27 [C]: 71,27 [H]: 
+[T]: 23,47 [H]: 31,47 [E]: 39,47 [L]: 51,47 [A]: 59,47 [B]: 67,47 
+
+[TO GET THE 
+VACCINE AND 
+SAVE US ALL!]
+[T]: 13,7  [O]: 21,7  [G]: 33,7  [E]: 41,7  [T]: 49,7  [T]: 61,7  [H]: 69,7  [E]: 77,7 
+[V]: 7,27  [A]: 15,27 [C]: 23,27 [C]: 31,27 [I]: 39,27 [N]: 47,27 [E]: 55,27 [A]: 66,27 [N]: 74,27 [D]: 82,27 
+[S]: 7,47  [A]: 15,47 [V]: 23,47 [E]: 31,47 [U]: 42,47 [S]: 50,47 [A]: 61,47 [L]: 69,47 [L]: 77,47 [!]: 86,47
+
+
+Monster black outline:
+
+Top horizontal: 45,2 to 50,2
+[44,3][43,4][44,5][45,6][46,6 to 46,11][43,9 to 45,9][41,10 to 42,10]
+[51,3][52,3][51,5][50,6][49,6 to 49,11][50,9 to 52,9][53,10 to 54,10]
+
+Top left vertical: 
+[34,8 to 34,10][35,11 to 36,11][37,10][38,11][39,12][40,13]
+[35,7]
+[36,6 to 38,6] [39,7 to 39,8]  [38,9] [39,10][40,11][41,12]
+
+Top right vertical:
+[61,8 to 61,10][59,11 to 60,11][58,10][57,11][56,12][55,13]
+[60,7]
+[57,6 to 59,6] [56,7 to 56,8]  [57,9] [56,10][55,11][54,12]
+
+Left vertical: 30,17 to 30,22
+[31,16][32,15][33,16][34,17][34,18 to 39,18][37,15 to 37,17][38,13 to 38,14]
+[31,23][32,24][33,23][34,22][34,21 to 39,21][37,22 to 37,24][38,25 to 38,26]
+
+Right vertical: 65,17 to 65,22
+[64,16][63,15][62,16][61,17][56,18 to 61,18][58,15 to 58,17][57,13 to 57,14]
+[64,23][63,24][62,23][61,22][56,21 to 61,21][58,22 to 58,24][57,25 to 57,26]
+
+Bottom left vertical:
+[34,29 to 34,31][35,28 to 36,28][37,29][38,28][39,27][40,26]
+[35,32]
+[36,33 to 38,33][39,31 to 39,32][38,30][39,29][40,28][41,27]
+
+Bottom right vertical:
+[61,29 to 61,31][59,28 to 60,28][58,29][57,28][56,27][55,26]
+[60,32]
+[57,33 to 59,33][56,31 to 56,32][57,30][56,29][55,28][54,27]
+
+Bottom horizontal: 45,37 to 50,37
+[44,36][43,35][44,34][45,33][46,28 to 46,33][43,30 to 45,30][41,29 to 42,29]
+[51,36][52,35][51,34][50,33][49,28 to 49,33][50,30 to 52,30][53,29 to 54,29]
+
+
+Face:
+
+[42,15][43,16][44,17][45,18]
+[53,15][52,16][51,17][50,18]
+
+[46,21 to 49,21]
+
+[44,22 to 45,22]
+[43,23 to 44,23]
+[43,24 to 43,25]
+
+[50,22 to 51,22]
+[51,23 to 52,23]
+[52,24 to 52,25]
+
+Shaded green:
+
+if ((x >= 44 && x <= 51) && (y >= 3  && y <= 5))
+if ((x >= 46 && x <= 49) && (y >= 6  && y <= 33))
+if ((x >= 44 && x <= 51) && (y >= 34 && y <= 36))
+if ((x >= 31 && x <= 33) && (y >= 16 && y <= 23))
+if ((x >= 34 && x <= 61) && (y >= 18 && y <= 21))
+if ((x >= 62 && x <= 64) && (y >= 16 && y <= 23))
+if ((x >= 35 && x <= 38) && (y >= 7  && y <= 10))
+if ((x >= 57 && x <= 60) && (y >= 7  && y <= 10))
+if ((x >= 35 && x <= 38) && (y >= 29 && y <= 32))
+if ((x >= 57 && x <= 60) && (y >= 29 && y <= 32))
+if ((x >= 39 && x <= 56) && (y >= 11 && y <= 28))
+if ((x >= 38 && x <= 57) && (y >= 15 && y <= 24))
+if ((x >= 43 && x <= 52) && (y >= 10 && y <= 29))
+
+Combat numbers:
+
+(1):
+if ((x >= xi    && x < xi+3)  && (y >= yi    && y < yi+21))
+
+(2):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi    && y < yi+12))
+if ((x >= xi    && x < xi+12) && (y >= yi+18 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+10 && y < yi+12))
+
+
+(3):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi    && y < yi+12))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+18 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+10 && y < yi+12))
+
+(4):
+if ((x >= xi+10 && x < xi+12) && (y >= yi    && y < yi+12))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi    && y < yi+12))
+if ((x >= xi    && x < xi+12) && (y >= yi+10 && y < yi+12))
+
+(5):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+18 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi    && y < yi+12))
+if ((x >= xi    && x < xi+12) && (y >= yi+10 && y < yi+12))	
+
+(6):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+18 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi    && y < yi+12))
+if ((x >= xi    && x < xi+12) && (y >= yi+10 && y < yi+12))
+
+(7):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi    && y < yi+12))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+
+(9):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi    && y < yi+12))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+18 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi    && y < yi+12))
+if ((x >= xi    && x < xi+12) && (y >= yi+10 && y < yi+12))
+
+(0):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi    && y < yi+12))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+18 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi    && y < yi+12))  
+
+(8):
+if ((x >= xi    && x < xi+12) && (y >= yi    && y < yi+3))
+if ((x >= xi+10 && x < xi+12) && (y >= yi    && y < yi+12))
+if ((x >= xi+10 && x < xi+12) && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+12) && (y >= yi+18 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi+10 && y < yi+21))
+if ((x >= xi    && x < xi+3)  && (y >= yi    && y < yi+12))
+if ((x >= xi    && x < xi+12) && (y >= yi+10 && y < yi+12))
+
+(-):
+if ((x >= xi    && x < xi+10) && (y >= yi    && y < yi+3))
+
+
+Combat numbers coordinates:
+
+12 - 15
+[1]: 22,42 [2]: 28,42 [-]: 43,51 [1]: 56,42 [5]: 62,42
+
+
+Main screen:
+
+Border:
+if ((x >= 0 && x <= 1) && (y >= 0 && y <= 63))
+if ((x >= 94 && x <= 95) && (y >= 0 && y <= 63))
+if ((x >= 0 && x <= 95) && (y >= 0 && y <= 1))
+if ((x >= 0 && x <= 95) && (y >= 62 && y <= 63))
+
+
+VOICCINE black outline
+(V):
+V lines:
+[8,4 to 8,14][11,4 to 11,12][13,4 to 13,12][16,4 to 16,14]
+H lines:
+[11,17 to 13,17]
+Dots:
+[12,13][9,15][10,16][15,15][14,16]
+
+(O):
+V lines:
+[18,4 to 18,17][26,4 to 26,17][21,7 to 21,13][23,7 to 23,13]
+H lines:
+[18,4 to 26,4][18,17 to 26,17][21,7 to 23,7][21,13 to 23,13]
+
+(I):
+V lines:
+[28,4 to 28,7][30,7 to 30,14][28,14 to 28,17][36,4 to 36,7][34,7 to 34,14][36,14 to 36,17]
+H lines:
+[28,4 to 36,4][28,7 to 30,7][28,14 to 30,14][28,17 to 36,17][34,7 to 36,7][34,14 to 36,14]
+
+(C):
+V lines:
+[38,4 to 38,17][46,4 to 46,7][41,17 to 41,14][46,14 to 46,17]
+H lines:
+[38,4 to 46,4][41,7 to 46,7][41,14 to 46,14][38,17 to 46,17]
+
+(C):
+V lines:
+[48,4 to 48,17][51,7 to 51,14][56,4 to 56,7][56,14 to 56,17]
+H lines:
+[48,4 to 56,4][51,7 to 56,7][51,14 to 56,14][48,17 to 56,17]
+
+(I):
+V lines:
+[58,4 to 58,7][[60,7 to 60,14][58,14 to 58,17][66,4 to 66,7][64,7 to 64,14][66,14 to 66,17]
+H lines:
+[58,4 to 66,4][58,7 to 60,7][64,7 to 66,7][58,14 to 60,14][64,14 to 66,14][58,17 to 66,17]
+
+(N):
+V lines:
+[68,4 to 68,17][71,7 to 71,17][73,7 to 73,17][76,4 to 76,17]
+H lines:
+[68,4 to 76,4][71,7 to 73,7][68,17 to 71,17][73,17 to 76,17]
+
+(E):
+V lines:
+[78,4 to 78,17][81,7 to 81,9][81,12 to 81,14][86,4 to 86,7][85,9 to 85,12][86,14 to 86,17] 
+H lines:
+[78,4 to 86,4][[81,7 to 86,7][81,9 to 85,9][81,12 to 85,12][81,14 to 86,14][78,17 to 86,17]
+
+
+VOICCINE colour
+(V):
+if ((x >= 9 && x <= 10) && (y >= 5 && y <= 15))
+if ((x >= 11 && x < 13) && (y >= 13 && y < 16))
+if ((x >= 14 && x < 15) && (y >= 5 && y < 15))
+
+(O):
+if ((x >= 19 && x < 20) && (y >= 5 && y < 16))
+if ((x >= 24 && x < 25) && (y >= 5 && y < 16))
+if ((x >= 19 && x < 25) && (y >= 5 && y < 6))
+if ((x >= 19 && x < 25) && (y >= 14 && y < 26))
+
+(I):
+if ((x >= 29 && x < 35) && (y >= 5 && y < 6))
+if ((x >= 29 && x < 35) && (y >= 15 && y < 16))
+if ((x >= 31 && x < 33) && (y >= 5 && y < 16))
+
+(C):
+if ((x >= 39 && x < 40) && (y >= 5 && y < 16))
+if ((x >= 39 && x < 45) && (y >= 5 && y < 6))
+if ((x >= 39 && x < 45) && (y >= 15 && y < 16))
+
+(C): 
+if ((x >= 49 && x <= 50) && (y >= 5 && y <= 16))
+if ((x >= 49 && x <= 55) && (y >= 5 && y <= 6))
+if ((x >= 49 && x <= 55) && (y >= 15 && y <= 16))
+
+(I):
+if ((x >= 59 && x <= 65) && (y >= 5 && y <= 6))
+if ((x >= 61 && x <= 63) && (y >= 5 && y <= 16))
+if ((x >= 59 && x <= 65) && (y >= 15 && y <= 16))
+
+(N):
+if ((x >= 69 && x <= 70) && (y >= 5 && y <= 16))
+if ((x >= 74 && x <= 75) && (y >= 5 && y <= 16))
+if ((x >= 69 && x <= 75) && (y >= 5 && y <= 6)
+
+(E):
+if ((x >= 79 && x <= 80) && (y >= 5 && y <= 16))
+if ((x >= 79 && x <= 85) && (y >= 5 && y <= 6))
+if ((x >= 79 && x <= 84) && (y >= 10 && y <= 11))
+if ((x >= 79 && x <= 85) && (y >= 15 && y <= 16))
+
+
+Syringe1 black outline
+V lines:
+[19,22 to 19,25][16,28 to 16,43][22,28 to 22,43][17,45 to 17,47][21,45 to 21,47]
+H lines:
+[18,26 to 20,26][17,27 to 21,27][16,28 to 22,28][16,41 to 22,41][14,44 to 24,44][16,48 to 22,48][20,31 to 22,31][21,33 to 22,33][20,35 to 22,35][21,37 to 22,37][20,39 to 22,39] 
+
+Syringe1 colour
+if ((x >= 17 && x <= 21) && (y >= 29 && y <= 40))
+if ((x >= 17 && x <= 21) && (y >= 42 && y <= 43))
+if ((x >= 18 && x <= 20) && (y >= 45 && y <= 47))
+
+Syringe2 black outline
+V lines:
+[76,24 to 76,26][80,24 to 80,26][75,28 to 75,43][81,28 to 81,43][78,46 to 78,49]
+H lines:
+[75,23 to 81,23][73,27 to 83,27][75,30 to 81,30][76,43 to 80,43][76,44 to 80,44][77,45 to 79,45][75,32][77,32][75,34 to 76,34][75,36 to 77,36][75,38 to 76,38][75,40 to 77,40]
+
+Syringe2 colour
+if ((x >= 77 && x <= 79) && (y >= 24 && y <= 26))
+if ((x >= 76 && x <= 80) && (y >= 28 && y <= 29))
+if ((x >= 76 && x <= 80) && (y >= 31 && y <= 42))
+
+Toilet paper
+V lines:
+[30,30 to 30,41][63,30 to 63,41][67,28 to 67,40]
+H lines:
+[31,29 to 32,29][31,31 to 32,31][31,42 to 32,42][33,28 to 38,28][34,30 to 37,30][33,32 to 38,32][33,43 to 38,43][39,29 to 40,29][39,31 to 40,31][39,42 to 40,42][42,29 to 43,29][42,31 to 43,31][42,42 to 43,42][44,28 to 49,28][45,30 to 48,30][44,32 to 49,32][44,43 to 49,43][50,29 to 51,29][50,31 to 51,31][50,42 to 51,42][53,29 to 54,29][53,31 to 54,31][53,42 to 54,42][55,28 to 60,28][56,30 to 59,30][55,32 to 60,32][55,43 to 60,43][61,29 to 62,29][61,31 to 62,31][61,42 to 62,42][64,30 to 65,30][64,42 to 65,42][66,29 to 67,29]
+Dots:
+[41,30][41,43][52,30][52,43][66,41]
+
+Play
+(P):
+V lines:
+[35,34 to 35,40]
+H lines:
+[35,34 to 39,34][35,37 to 39,37]
+Blocks:
+if ((x >= 38 && x <= 39) && (y >= 34 && y <= 37))
+
+(L):
+H lines:
+[41,40 to 45,40]
+Blocks:
+if ((x >= 41 && x <= 42) && (y >= 34 && y <= 40))
+
+(A):
+V lines:
+[48,34 to 48,40]
+H lines:
+[48,34 to 52,34]
+Blocks:
+if ((x >= 51 && x <= 52) && (y >= 34 && y <= 40))
+if ((x >= 48 && x <= 50) && (y >= 38 && y <= 39))
+
+(Y):
+V lines:
+[58,34 to 58,37]
+Blocks:
+if ((x >= 54 && x <= 55) && (y >= 34 && y <= 37))
+if ((x >= 56 && x <= 57) && (y >= 37 && y <= 40))
+
+Doctor outline
+V lines:
+[39,54 to 39,61][57,54 to 57,61][40,52 to 40,54][56,52 to 56,54]  
+H lines:
+[43,49 to 53,49][40,53 to 56,53]
+Dots:
+[41,51][42,50][54,50][55,51]
+
+Doctor brown hair + eyes
+H lines:
+[41,54 to 44,54][52,54 to 55,54][40,61 to 43,61][53,61 to 56,61][40,60 to 41,60][55,60 to 56,60]
+V lines:
+[40,58 to 40,59][56,58 to 56,59]
+Dots:
+[45,56][51,56]
+
+Doctor light blue hat
+Dots:
+[41,52][55,52]
+Blocks:
+if ((x >= 42 && x <= 54) && (y >= 50 && y <= 52))
+
+Doctor beige skin
+if ((x >= 40 && x <= 56) && (y >= 54 && y <= 61))
+
+Doctor mask string grey
+Dots:
+[40,55][41,56][42,57][43,58][44,59][52,59][53,58][54,57][55,56][56,55]
+
+Doctor mask blue
+Blocks:
+if ((x >= 46 && x <= 50) && (y >= 58 && y <= 61))
+if ((x >= 44 && x <= 52) && (y >= 59 && y <= 61))
+
+Background
+Blocks Dark Orange:
+if ((x >= 2 && x <= 93) && (y >= 31 && y <= 61))
+
+V lines light orange:
+[2,31 to 2,34][3,31 to 3,33][4,31 to 4,32][15,31 to 15,32][23,31 to 23,34][24,31 to 24,35][29,31 to 29 35] 
+
+H lines light orange:
+[68,31 to 74,31][68,32 to 70,32][83,35 to 93,35][86,36 to 93,36][88,37 to 91,37]
+                        
+Dots light orange:
+[5,31][14,31][68,33]             
+
+Blocks light orange:
+if ((x >= 25 && x <= 28) && (y >= 31 && y <= 36))
+if ((x >= 82 && x <= 93) && (y >= 31 && y <= 34))
+
+
+Lowest - highest
+orange: background
+beige: face
+blue: mask
+black: outline
+brown: hair, eyes
+grey: mask string
+
+
+Shield outline
+V lines:
+[2,3 to 2,9][7,2 to 7,12][12,3 to 12,9]
+H lines:
+[4,1 to 10,1][2,6 to 12,6][6,13 to 8,13]
+Dots:
+[3,2][11,2][3,10][4,11][5,12][9,12][10,11][11,10]
+Black border:
+[0,15 to 15,15][15,0 to 15,15]
+
+Shield colour
+if ((x >= 3 && x <= 11) && (y >= 2 && y <= 10))
+if ((x >= 5 && x <= 9) && (y >= 11 && y <= 12))
+
+
+Sword colour
+if ((x >= 12 && x <= 13) && (y >= 1 && y <= 2))
+if ((x >= 11 && x <= 12) && (y >= 2 && y <= 3))
+if ((x >= 10 && x <= 11) && (y >= 3 && y <= 4))
+if ((x >= 9 && x <= 10) && (y >= 4 && y <= 5))
+if ((x >= 8 && x <= 9) && (y >= 5 && y <= 6))
+if ((x >= 7 && x <= 8) && (y >= 6 && y <= 7))
+if ((x >= 6 && x <= 7) && (y >= 7 && y <= 8))
+[5,8 to 6,8] [6,8 to 6,9]
+[4,9 to 4,10] [4,10 to 5,10]
+if ((x >= 3 && x <= 4) && (y >= 10 && y <= 1))
+if ((x >= 1 && x <= 2) && (y >= 12 && y <= 13))
+[1,6 to 2,6][2,6 to 2,7][2,7 to 3,7][3,7 to 3,8]
+[6,11 to 7,11][7,11 to 7,12][7,12 to 8,12][8,12 to 8,13]
+Black border:
+[0,15 to 15,15][15,0 to 15,15]
+
+
+Treasure box
+Border:
+if ((x >= 0 && x <= 1) && (y >= 0 && y <= 63))
+if ((x >= 94 && x <= 95) && (y >= 0 && y <= 63))
+if ((x >= 0 && x <= 95) && (y >= 0 && y <= 1))
+if ((x >= 0 && x <= 95) && (y >= 62 && y <= 63))
+
+Open treasure box numbers coordinates
+12 - 15
+[1]: 23,6 [2]: 29,26 [-]: 44,15 [1]: 57,6 [5]: 63,6
+
+
+Treasure box dark brown outline
+if ((x >= 30 && x <= 65) && (y >= 34 && y <= 58))
+
+Box light brown 
+if ((x >= 36 && x <= 59) && (y >= 36 && y <= 44))
+if ((x >= 36 && x <= 46) && (y >= 51 && y <= 52))
+if ((x >= 49 && x <= 59) && (y >= 51 && y <= 52))
+if ((x >= 38 && x <= 57) && (y >= 55 && y <= 56))
+
+Box gold
+if ((x >= 32 && x <= 33) && (y >= 36 && y <= 48))
+if ((x >= 32 && x <= 63) && (y >= 47 && y <= 48))
+if ((x >= 62 && x <= 63) && (y >= 36 && y <= 48))
+if ((x >= 47 && x <= 48) && (y >= 45 && y <= 52))
+if ((x >= 32 && x <= 33) && (y >= 51 && y <= 56))
+if ((x >= 32 && x <= 37) && (y >= 55 && y <= 56))
+if ((x >= 62 && x <= 63) && (y >= 51 && y <= 56))
+if ((x >= 58 && x <= 63) && (y >= 55 && y <= 56))
+
+
+Mask black outline
+V lines:
+[22,20 to 23,24][24,25 to 24,28][25,29 to 25,30][34,25 to 34,31][61,25 to 61,31][72,20 to 72,24][71,25 to 71,28][70,29 to 70,30]
+
+H lines:
+[24,19 to 28,19][27,32 to 28,32][29,33 to 31,33][32,32 to 33,32][67,19 to 71,19][67,32 to 68,32][64,33 to 66,33][62,32 to 63,32]
+
+[43,21 to 52,21][43,35 to 52,35][43,24 to 52,24][43,32 to 52,32][39,22 to 42,22][39,25 to 42,25][39,31 to 42,31][39,34 to 42,34][53,22 to 56,22][53,25 to 56,25][53,31 to 56,31][53,34 to 56,34][37,23 to 38,23][37,26 to 38,26][37,30 to 38,30][37,33 to 38,33][35,27 to 37,27][35,29 to 36,29][57,23 to 58,23][57,26 to 58,26][57,30 to 58,30][57,33 to 58,33][59,27 to 60,27][59,29 to 60,29]
+
+Dots:
+[26,31][29,20][30,21][31,22][32,23][33,24][35,25][36,24][35,31][36,32][69,31][62,24][63,23][64,22][65,21][66,20][60,25][59,24][60,31][59,32]
+
+Mask dark blue:
+H lines:
+[37,24 to 38,24][39,23 to 42,23][43,22 to 52,22][53,23 to 56,23][57,24 to 58,24][43,25 to 52,25][39,26 to 42,26][37,27 to 38,27][35,28 to 36,28][37,29 to 38,29][39,30 to 42,30][43,31 to 52,31][53,26 to 56,26][53,30 to 56,30][57,27 to 58,27][57,29 to 58,29][59,28 to 60,28][37,32 to 38,32][39,33 to 42,33][43,34 to 52,34][53,33 to 56,33][57,32 to 58,32]
+Dots:
+[36,25][35,26][35,30][36,31][59,25][60,26][60,30][59,31]
+
+Mask light blue:
+Blocks:
+if ((x >= 37 && x <= 58) && (y >= 23 && y <= 33))
+Dots:
+[36,26][36,30][59,26][59,30]
+
+Light blue
+dark blue
+black
+
+
+
+Plus sign
+if ((x >= 37 && x <= 40) && (y >= 43 && y <= 54))
+if ((x >= 33 && x <= 44) && (y >= 47 && y <= 50))
+
+Heart
+if ((x >= 48 && x <= 61) && (y >= 45 && y <= 48))
+if ((x >= 50 && x <= 53) && (y >= 43 && y <= 50))
+if ((x >= 56 && x <= 59) && (y >= 43 && y <= 50))
+if ((x >= 54 && x <= 55) && (y >= 45 && y <= 54))
+if ((x >= 52 && x <= 57) && (y >= 51 && y <= 52))
+
+OUCH
+(O):
+if ((x >= 26 && x <= 28) && (y >= 22 && y <= 35))     
+if ((x >= 32 && x <= 34) && (y >= 22 && y <= 35)) 
+if ((x >= 26 && x <= 34) && (y >= 22 && y <= 24))    
+if ((x >= 26 && x <= 34) && (y >= 33 && y <= 35)) 
+
+(U):
+if ((x >= 38 && x <= 40) && (y >= 22 && y <= 35)) 
+if ((x >= 44 && x <= 46) && (y >= 22 && y <= 35)) 
+if ((x >= 38 && x <= 46) && (y >= 33 && y <= 35)) 
+
+(C):
+if ((x >= 50 && x <= 52) && (y >= 22 && y <= 35)) 
+if ((x >= 50 && x <= 58) && (y >= 22 && y <= 24)) 
+if ((x >= 50 && x <= 58) && (y >= 33 && y <= 35)) 
+if ((x >= xi && x <= xf) && (y >= yi && y <= yf))  
+
+(H):
+if ((x >= 62 && x <= 64) && (y >= 22 && y <= 35))  
+if ((x >= 68 && x <= 70) && (y >= 22 && y <= 35))  
+if ((x >= 62 && x <= 70) && (y >= 28 && y <= 29))  
+
+(!):
+if ((x >= 74 && x <= 76) && (y >= 22 && y <= 29))  
+if ((x >= 74 && x <= 76) && (y >= 33 && y <= 35))  
+
+(-):
+if ((x >= 26 && x <= 37) && (y >= 47 && y <= 50)) 
+
+(first heart)
+if ((x >= 41 && x <= 54) && (y >= 45 && y <= 48))
+if ((x >= 43 && x <= 46) && (y >= 43 && y <= 50))  
+if ((x >= 49 && x <= 52) && (y >= 43 && y <= 50)) 
+if ((x >= 47 && x <= 48) && (y >= 45 && y <= 54)) 
+if ((x >= 45 && x <= 50) && (y >= 51 && y <= 52)) 
+
+(second heart)
+if ((x >= 58 && x <= 71) && (y >= 45 && y <= 48)) 
+if ((x >= 60 && x <= 63) && (y >= 43 && y <= 50)) 
+if ((x >= 66 && x <= 69) && (y >= 43 && y <= 50))
+if ((x >= 64 && x <= 65) && (y >= 45 && y <= 54))  
+if ((x >= 62 && x <= 67) && (y >= 51 && y <= 52)) 
+
+(finger)
+Blocks:
+if ((x >= 2 && x <= 16) && (y >= 25 && y <= 32))
+if ((x >= 17 && x <= 18) && (y >= 26 && y <= 32)) 
+if ((x >= 19 && x <= 20) && (y >= 27 && y <= 31))
+
+V lines:
+[21,28 to 21,30]
+
+Red V lines:
+[14,30 to 14,40]
+Red dots:
+[15,29][16,28][17,27]
+
+
+Pavement beige
+if ((x >= 0 && x <= 20) && (y >= 14 && y <= 63)) 
+if ((x >= 21 && x <= 24) && (y >= 14 && y <= 56))
+if ((x >= 25 && x <= 27) && (y >= 14 && y <= 35)) 
+if ((x >= 28 && x <= 29) && (y >= 14 && y <= 27))
+if ((x >= 30 && x <= 32) && (y >= 14 && y <= 23))
+
+if ((x >= 75 && x <= 95) && (y >= 14 && y <= 63))  
+if ((x >= 72 && x <= 74) && (y >= 14 && y <= 59))
+if ((x >= 69 && x <= 71) && (y >= 14 && y <= 47)) 
+if ((x >= 66 && x <= 68) && (y >= 14 && y <= 35)) 
+if ((x >= 63 && x <= 65) && (y >= 14 && y <= 23)) 
+
+Pavement outline brown
+if ((x >= 21 && x <= 22) && (y >= 60 && y <= 63)) 
+if ((x >= 22 && x <= 23) && (y >= 56 && y <= 60)) 
+if ((x >= 23 && x <= 24) && (y >= 52 && y <= 56)) 
+if ((x >= 24 && x <= 25) && (y >= 48 && y <= 52)) 
+if ((x >= 25 && x <= 26) && (y >= 44 && y <= 48))
+if ((x >= 26 && x <= 27) && (y >= 40 && y <= 44)) 
+if ((x >= 27 && x <= 28) && (y >= 36 && y <= 40))
+if ((x >= 28 && x <= 29) && (y >= 32 && y <= 34)) 
+if ((x >= 29 && x <= 30) && (y >= 28 && y <= 32))
+if ((x >= 30 && x <= 31) && (y >= 24 && y <= 28)) 
+if ((x >= 31 && x <= 32) && (y >= 20 && y <= 24))
+if ((x >= 32 && x <= 33) && (y >= 16 && y <= 20)) 
+if ((x >= 33 && x <= 34) && (y >= 14 && y <= 16)) 
+ 
+if ((x >= 73 && x <= 74) && (y >= 60 && y <= 63))  
+if ((x >= 72 && x <= 73) && (y >= 56 && y <= 60)) 
+if ((x >= 71 && x <= 72) && (y >= 52 && y <= 56)) 
+if ((x >= 70 && x <= 71) && (y >= 48 && y <= 52))
+if ((x >= 69 && x <= 70) && (y >= 44 && y <= 48)) 
+if ((x >= 68 && x <= 69) && (y >= 40 && y <= 44))  
+if ((x >= 67 && x <= 68) && (y >= 36 && y <= 40)) 
+if ((x >= 66 && x <= 67) && (y >= 32 && y <= 36))  
+if ((x >= 65 && x <= 66) && (y >= 28 && y <= 32)) 
+if ((x >= 64 && x <= 65) && (y >= 24 && y <= 28)) 
+if ((x >= 63 && x <= 64) && (y >= 20 && y <= 24)) 
+if ((x >= 62 && x <= 63) && (y >= 16 && y <= 20)) 
+if ((x >= 61 && x <= 62) && (y >= 14 && y <= 16)) 
+
+Road white
+H lines:
+[4,6 to 11,6][18,6 to 25,6][32,6 to 39,6][55,6 to 63,6][70,6 to 77,6][84,6 to 91,6]
+V lines:
+[47,11 to 47,18][47,25 to 47,32]
+
+Left arrow
+if ((x >= 4 && x <= 21) && (y >= 29 && y <= 34)) 
+if ((x >= 6 && x <= 7) && (y >= 27 && y <= 36)) 
+if ((x >= 8 && x <= 9) && (y >= 25 && y <= 38)) 
+if ((x >= 2 && x <= 3) && (y >= 31 && y <= 32)) 
+
+Right arrow
+if ((x >= 74 && x <= 91) && (y >= 29 && y <= 34)) 
+if ((x >= 86 && x <= 87) && (y >= 25 && y <= 38))
+if ((x >= 88 && x <= 89) && (y >= 27 && y <= 36))  
+if ((x >= 92 && x <= 93) && (y >= 31 && y <= 32))
+
+Doctor black outline
+Blocks:
+if ((x >= 29 && x <= 30) && (y >= 46 && y <= 63)) 
+if ((x >= 31 && x <= 32) && (y >= 42 && y <= 47)) 
+if ((x >= 29 && x <= 32) && (y >= 46 && y <= 47))
+if ((x >= 29 && x <= 32) && (y >= 53 && y <= 54))
+if ((x >= 33 && x <= 34) && (y >= 29 && y <= 41))   
+if ((x >= 35 && x <= 36) && (y >= 37 && y <= 38)) 
+if ((x >= 37 && x <= 59) && (y >= 35 && y <= 36)) 
+if ((x >= 33 && x <= 63) && (y >= 44 && y <= 45)) 
+if ((x >= 60 && x <= 61) && (y >= 37 && y <= 38)) 
+if ((x >= 62 && x <= 63) && (y >= 39 && y <= 41))
+if ((x >= 64 && x <= 65) && (y >= 42 && y <= 47))  
+if ((x >= 66 && x <= 67) && (y >= 46 && y <= 63)) 
+if ((x >= 64 && x <= 67) && (y >= 53 && y <= 54))
+if ((x >= 33 && x <= 34) && (y >= 55 && y <= 59))
+if ((x >= 35 && x <= 38) && (y >= 60 && y <= 61))
+if ((x >= 39 && x <= 40) && (y >= 62 && y <= 63))
+if ((x >= 62 && x <= 63) && (y >= 55 && y <= 59))
+if ((x >= 58 && x <= 61) && (y >= 60 && y <= 61))
+if ((x >= 56 && x <= 57) && (y >= 62 && y <= 63))
+
+Brown hair
+Blocks
+[33,46 to 40,47][56,46 to 63,47][31,55 to 32,63][33,60 to 34,63][35,62 to 38,63][64,55 to 65,63][62,60 to 63,63][58,62 to 61,63]    
+
+brown eyes
+blocks:
+[41,51 to 42,52][54,51 to 55,52] 
+
+Mask gray string
+[31,48 to 32,50][33,51 to 34,52][35,53 to 36,54][37,55 to 38,56][39,57 to 40,59][64,48 to 65,50][62,51 to 63,52][60,53 to 61,54][58,55 to 59,56][56,57 to 57,59]
+
+Mask blue
+[41,57 to 55,63][39,60 to 57,61][43,55 to 53,56]
+
+Hat blue
+[35,39 to 61,43][33,42 to 63,43][37,37 to 59,38]  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Intro8:
+[AS YOU WALK
+DOWN THE 
+STREET]
+Starting coordinates
+[A]: 9,6 [S]: 17,6 [Y]: 29,6 [O]: 37,6 [U]: 45,6 [W]: 57,6 [A]: 65,6 [L]: 73,6 [K]: 81,6
+[D]: 19,26 [O]: 27,26 [W]: 35,26 [N]: 43,26 [T]: 55,26 [H]: 63,26 [E]: 71,36
+[S]: 25,46 [T]: 33,46 [R]: 41,46 [E]: 49,46 [E]: 57,46 [T]: 65,46
+
+
+M1 pretext:
+[A MAN COUGHED 
+AT YOU!
+YOU MIGHT
+CATCH THE FLU!]
+Starting coordinates
+[A]: 8,6 [M]: 18,6 [A]: 25,6 [N]: 32,6 [C]: 42,6 [O]: 49,6 [U]: 56,6 [G]: 63,6 [H]: 70,6 [E]: 77,6 [D]: 84,6
+[A]: 27,20 [T]: 34,20 [Y]: 44,20 [O]: 51,20 [U]: 58,20 [!]: 66,20
+[Y]: 18,34 [O]: 25,34 [U]: 32,34 [M]: 42,34 [I]: 49,34 [G]: 57,34 [H]: 64,34 [T]: 71,34
+[C]: 6,48 [A]: 13,48 [T]: 20,48 [C]: 27,48 [H]: 34,48 [T]: 44,48 [H]: 51,48 [E]: 58,48 [F]: 68,48 [L]: 75,48 [U]: 82,48 [!]: 90,48 
+
+M2 pretext:
+[IN FRONT OF YOU
+YOU SEE PAILS
+OF WATER THAT
+BREED DENGUE]
+[I]: 2,6 [N]: 9,6 [F]: 19,6 [R]: 26,6 [O]: 33,6 [N]: 40,6 [T]: 47,6 [O]: 57,6 [F]: 64,6 [Y]: 74,6 [O]: 81,6 [U]: 88,6 
+[Y]: 7,20 [O]: 14,20 [U]: 21,20 [S]: 31,20 [E]: 38,20 [E]: 45,20 [P]: 55,20 [A]: 62,20 [I]: 69,20 [L]: 76,20 [S]: 83,20 
+[O]: 7,34 [F]: 14,34 [W]: 24,34 [A]: 31,34 [T]: 38,34 [E]: 45,34 [R]: 52,34 [T]: 62,34 [H]: 69,34 [A]: 76,34 [T]: 83,34 
+[B]: 8,48 [R]: 15,48 [E]: 22,48 [E]: 29,48 [D]: 36,48 [D]: 46,48 [E]: 53,48 [N]: 60,48 [G]: 67,48 [U]: 74,48 [E]: 81,48 
+
+M3 pretext:
+[YOU MET AN OLD
+ENEMY SARS!]
+[Y]: 6,17 [O]: 13,17 [U]: 20,17 [M]: 30,17 [E]: 37,17 [T]: 44,17 [A]: 54,17 [N]: 61,17 [O]: 71,17 [L]: 78,17 [D]: 85,17 
+[E]: 13,37 [N]: 20,37 [E]: 27,37 [M]: 34,37 [Y]: 41,37 [S]: 51,37 [A]: 58,37 [R]: 65,37 [S]: 72,37 [!]: 80,37 
+
+M1 death:
+[WASH YOUR
+HANDS
+NEXT TIME]
+[W]: 19,7 [A]: 26,7 [S]: 33,7 [H]: 40,7 [Y]: 50,7 [O]: 57,7 [U]: 64,7 [R]: 71,7 
+[H]: 31,27 [A]: 38,27 [N]: 45,27 [D]: 52,27 [S]: 59,27 
+[N]: 19,47 [E]: 26,47 [X]: 33,47 [T]: 40,47 [T]: 50,47 [I]: 57,47 [M]: 64,47 [E]: 71,47 
+
+M2 death:
+[YOU CAUGHT THE
+DENGUE FEVER]
+[Y]: 4,16 [O]: 11,16 [U]: 18,16 [C]: 28,16 [A]: 35,16 [U]: 42,16 [G]: 49,16 [H]: 56,16 [T]: 62,16 [T]: 73,16 [H]: 80,16 [E]: 87,16 
+[D]: 9,36 [E]: 16,36 [N]: 23,36 [G]: 30,36 [U]: 37,36 [E]: 44,36 [F]: 54,36 [E]: 61,36 [V]: 68,36 [E]: 75,36 [R]: 82,36 
+
+M3 death:
+[YOU RAN OUT OF 
+DETTOL]    
+[Y]: 6,17 [O]: 13,17 [U]: 20,17 [R]: 30,17 [A]: 37,17 [N]: 44,17 [O]: 54,17 [U]: 61,17 [T]: 68,17 [O]: 78,17 [F]: 85,17   
+[D]: 27,37 [E]: 34,37 [T]: 41,37 [T]: 48,37 [O]: 55,37 [L]: 62,37 
+
+Game over screen:
+[-GAME OVER-]
+[-]: 13,30 [G]: 19,26 [A]: 26,26 [M]: 33,26 [E]: 40,26 [O]: 50,26 [V]: 57,26 [E]: 64,26 [R]: 71,26 [-]: 78,30 
+
+Win screen:
+[GOOD JOB DOC!
+LET'S GET GOING]
+[G]: 8,16 [O]: 15,16 [O]: 22,16 [D]: 29,16 [J]: 39,16 [O]: 46,16 [B]: 53,16 [D]: 63,16 [O]: 70,16 [C]: 77,16 [!]: 86,16 
+[L]: 2,36 [E]: 9,36 [T]: 16,36 [']: 23,35 [S]: 26,36 [G]: 36,36 [E]: 43,36 [T]: 50,36 [G]: 60,36 [O]: 67,36 [I]: 74,36 [N]: 81,36 [G]: 88,36 
+
+Chest pretext:
+[YOU FOUND A 
+CHEST ALONG
+THE WAY!
+OPEN ... ?]
+[Y]: 14,6 [O]: 21,6 [U]: 28,6 [F]: 38,6 [O]: 45,6 [U]: 52,6 [N]: 59,6 [D]: 66,6 [A]: 76,6 
+[C]: 12,20 [H]: 19,20 [E]: 26,20 [S]: 33,20 [T]: 40,20 [A]: 50,20 [L]: 57,20 [O]: 64,20 [N]: 71,20 [G]: 78,20 
+[T]: 26,34 [H]: 33,34 [E]: 40,34 [W]: 50,34 [A]: 57,34 [Y]: 64,34 [!]: 71,34 
+[O]: 25,48 [P]: 33,48 [E]: 40,48 [N]: 47,48 [...]: 55,56 [?]: 65,48 
+
+Treasure pretext:
+[YOU FOUND A 
+PACK OF MASK!]
+[Y]: 14,19 [O]: 21,19 [U]: 28,19 [F]: 38,19 [O]: 45,19 [U]: 52,19 [N]: 59,19 [D]: 66,19 [A]: 76,19 
+[P]: 9,34 [A]: 16,34 [C]: 23,34 [K]: 30,34 [O]: 40,34 [F]: 47,34 [M]: 57,34 [A]: 64,34 [S]: 71,34 [K]: 78,34 [!]: 86,34 
+
+Trap pretext:
+[YOU PRICKED
+YOURSELF
+WHILE OPENING
+THE CHEST ...]
+[Y]: 11,6 [O]: 18,6 [U]: 25,6 [P]: 35,6 [R]: 42,6 [I]: 49,6 [C]: 56,6 [K]: 63,6 [E]: 70,6 [D]: 77,6 
+[Y]: 20,20 [O]: 27,20 [U]: 34,20 [R]: 41,20 [S]: 48,20 [E]: 55,20 [L]: 62,20 [F]: 69,20 
+[W]: 5,34 [H]: 12,34 [I]: 19,34 [L]: 26,34 [E]: 33,34 [O]: 43,34 [P]: 50,34 [E]:57,34 [N]: 64,34 [I]: 71,34 [N]: 78,34 [G]: 85,34
+[T]: 14,48 [H]: 21,48 [E]: 28,48 [C]: 38,48 [H]: 45,48 [E]: 52,48 [S]: 59,48 [T]: 65,48 [...]: 74,55
+
+Final boss pretext:
+[YOU'VE FINALLY 
+REACHED 
+THE LAB
+BUT THERE IS
+1 LAST MISSION]
+[Y]: 4,3 [O]: 1,3 [U]: 18,3 [']: 25,1 [V]: 28,3 [E]: 35,3 [F]: 44,3 [I]: 51,3 [N]: 58,3 [A]: 65,3 [L]: 72,3 [L]: 79,3 [Y]: 86,3 
+[R]: 24,15 [E]: 31,15 [A]: 38,15 [C]: 45,15 [H]: 52,15 [E]: 59,15 [D]: 66,15
+[T]: 25,27 [H]: 32,27 [E]: 39,27 [L]: 49,27 [A]: 56,27 [B]: 63,27
+[B]: 10,39 [U]: 17,39 [T]: 24,39 [T]: 34,39 [H]: 41,39 [E]: 48,39 [R]: 55,39 [E]: 62,39 [I]: 72,39 [S]: 79,39
+[1]: 3,51 [L]: 13,51 [A]: 20,51 [S]: 27,51 [T]: 34,51 [M]: 44,51 [I]: 51,51 [S]: 58,51 [S]: 65,51 [I]: 72,51 [O]: 79,51 [N]: 86,51 
+
+Final boss death:
+[STOP TOUCHING
+YOUR FACE!
+YOU CAUGHT THE
+CORONA!] 
+[S]: 3,6 [T]: 10,6 [O]: 17,6 [P]: 24,6 [T]: 34,6 [O]: 41,6 [U]: 48,6 [C]: 55,6 [H]: 62,6 [I]: 69,6 [N]: 76,6 [G]: 83,6 
+[Y]: 17,20 [O]: 24,20 [U]: 31,20 [R]: 38,20 [F]: 48,20 [A]: 55,20 [C]: 62,20 [E]: 69,20 [!]: 77,20 
+[Y]: 4,34 [O]: 11,34 [U]: 18,34 [C]: 28,34 [A]: 35,34 [U]: 42,34 [G]: 49,34 [H]: 56,34 [T]: 63,34 [T]: 73,34 [H]: 80,34 [E]: 87,34
+[C]: 26,48 [O]: 33,48 [R]: 40,48 [O]: 47,48 [N]: 54,48 [A]: 61,48 [!]: 69,48 
+
+    
+    
