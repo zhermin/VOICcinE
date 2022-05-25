@@ -30,7 +30,7 @@ Pixel graphics were crucial in displaying texts and graphics onto the tiny scree
 
 Gameplay consisted of choice selections using buttons on-board the FPGA along with object interactions and combat. Both required using audio as the input, where the volume corresponds to a value from 0-16. This value must match along a range of randomized values within a countdown time limit of a short few seconds. 
 
-Randomization on the FPGA were implemented using a hardware "hack" or method by using the first few bits of the constant audio input, which are highly sensitive and variable, which fluctuates extensively and simulates randomness perfectly, even in environments that were seemingly quiet to us humans. 
+Randomization on the FPGA were implemented using a hardware "hack" or method by using the first few bits of the constant audio input, which are highly sensitive and variable, fluctuating extensively and hence simulates randomness perfectly, even in environments that are seemingly quiet to us humans. 
 
 As an example for the combat system, an enemy virus may randomly require a volume value range of 12-15 to count as a successful hit and likewise, a different range of 15-16 to count as a successful defense when it alternates to the virus's turn. 
 
